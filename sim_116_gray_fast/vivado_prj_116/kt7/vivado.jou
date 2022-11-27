@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Nov 26 16:16:57 2022
+# Process ID: 3276
+# Current directory: F:/Verilog_Learn/sim_116_gray_fast/vivado_prj_116/kt7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11872 F:\Verilog_Learn\sim_116_gray_fast\vivado_prj_116\kt7\kt7.xpr
+# Log file: F:/Verilog_Learn/sim_116_gray_fast/vivado_prj_116/kt7/vivado.log
+# Journal file: F:/Verilog_Learn/sim_116_gray_fast/vivado_prj_116/kt7\vivado.jou
+# Running On: ZHOUXXXX, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 34137 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/Verilog_Learn/sim_116_gray_fast/vivado_prj_116/kt7/kt7.xpr
+add_files -norecurse F:/Verilog_Learn/sim_116_gray_fast/design/vlg_design.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse F:/Verilog_Learn/sim_116_gray_fast/testbench/testbench_top.v
+update_compile_order -fileset sim_1
+launch_simulation
+source vlg_design.tcl
+update_compile_order -fileset sim_1
+set_property target_simulator ModelSim [current_project]
+launch_simulation -install_path E:/modeltech64_2020.4/win64
+launch_simulation -install_path E:/modeltech64_2020.4/win64
+close_sim

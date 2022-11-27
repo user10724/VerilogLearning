@@ -1,0 +1,6 @@
+verilog xil_defaultlib --include "../../../../kt7.gen/sources_1/ip/debug_vio/hdl/verilog" --include "../../../../kt7.gen/sources_1/ip/debug_vio/hdl" \
+"../../../../kt7.gen/sources_1/ip/debug_vio/sim/debug_vio.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

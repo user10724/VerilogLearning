@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Verilog_Learn/sim_114_graycounter_8bit/vivado_prj_114/kt7/kt7.sim/sim_1/behav/modelsim
+T_opt
+!s110 1669393200
+Ve=P60A9ee[P@J6^YToL@k0
+Z1 04 13 4 work testbench_top fast 0
+Z2 04 4 4 work glbl fast 0
+=1-047c16100131-6380eb30-28d-1bb4
+Z3 o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1669446710
+VU>QNiZ3RUi`Bzc=DO1o@Y2
+R1
+R2
+=1-047c16100131-6381bc36-1b4-42ec
+R3
+R4
+n@_opt1
+R5
+vblk_mem_gen_0
+!s10a 1669446250
+Z6 !s110 1669446608
+!i10b 1
+!s100 HNJVa5ji9=oIBg>aT`9<G2
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJ;7`Ifk[Agi8McF]T7I5K1
+Z8 dF:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.sim/sim_1/behav/modelsim
+w1669446250
+8../../../../kt7.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+F../../../../kt7.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+!i122 2
+L0 56 156
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z11 !s108 1669446608.000000
+Z12 !s107 ../../../../../../testbench/testbench_top.v|../../../../../../design/vlg_design.v|../../../../kt7.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|
+Z13 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../kt7.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../../../design/vlg_design.v|../../../../../../testbench/testbench_top.v|
+!i113 0
+Z14 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vglbl
+!s110 1669446705
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+R7
+IJT>_:<WW6a7KP^k3<8E3=1
+R8
+w1634335545
+8glbl.v
+Fglbl.v
+!i122 6
+L0 6 78
+R9
+R10
+r1
+!s85 0
+31
+!s108 1669446705.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vtestbench_top
+!s10a 1669446652
+!s110 1669446699
+!i10b 1
+!s100 <5>B4f^21LnKb@3H[Yl]M1
+R7
+IfXOd5;EncAf`Q0nEC5JjK3
+R8
+w1669446652
+8../../../../../../testbench/testbench_top.v
+F../../../../../../testbench/testbench_top.v
+!i122 4
+L0 7 86
+R9
+R10
+r1
+!s85 0
+31
+!s108 1669446699.000000
+R12
+R13
+!i113 0
+R14
+R4
+vvlg_design
+!s10a 1669446597
+R6
+!i10b 1
+!s100 WhkhR@0OiRbU8R`?PGfEz2
+R7
+IdD255UD<f2[R3<10@nln?2
+R8
+w1669446597
+8../../../../../../design/vlg_design.v
+F../../../../../../design/vlg_design.v
+!i122 2
+L0 11 39
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R4

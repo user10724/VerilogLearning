@@ -1,0 +1,2 @@
+debug_vio.v,verilog,xil_defaultlib,../../../../kt7.gen/sources_1/ip/debug_vio/sim/debug_vio.v,incdir="../../../../kt7.gen/sources_1/ip/debug_vio/hdl/verilog"incdir="../../../../kt7.gen/sources_1/ip/debug_vio/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

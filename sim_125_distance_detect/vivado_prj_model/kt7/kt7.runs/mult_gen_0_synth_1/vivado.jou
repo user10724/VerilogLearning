@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Nov 27 22:20:05 2022
+# Process ID: 9748
+# Current directory: F:/Verilog_Learn/sim_125_distance_detect/vivado_prj_model/kt7/kt7.runs/mult_gen_0_synth_1
+# Command line: vivado.exe -log mult_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_gen_0.tcl
+# Log file: F:/Verilog_Learn/sim_125_distance_detect/vivado_prj_model/kt7/kt7.runs/mult_gen_0_synth_1/mult_gen_0.vds
+# Journal file: F:/Verilog_Learn/sim_125_distance_detect/vivado_prj_model/kt7/kt7.runs/mult_gen_0_synth_1\vivado.jou
+# Running On: ZHOUXXXX, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 34137 MB
+#-----------------------------------------------------------
+source mult_gen_0.tcl -notrace

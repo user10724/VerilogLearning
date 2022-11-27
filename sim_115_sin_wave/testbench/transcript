@@ -1,0 +1,46 @@
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do compile.do
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying E:/modeltech64_2020.4/win64/../modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:08:51 on Nov 26,2022
+# vlog -reportprogress 300 -work work ../design/vlg_design.v 
+# -- Compiling module vlg_design
+# 
+# Top level modules:
+# 	vlg_design
+# End time: 15:08:51 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:08:51 on Nov 26,2022
+# vlog -reportprogress 300 -work work testbench_top.v 
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 15:08:51 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench_top 
+# Start time: 15:08:51 on Nov 26,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: ../design/vlg_design.v(29): Module 'IBUFDS' is not defined.
+# ** Error: ../design/vlg_design.v(43): Module 'blk_mem_gen_0' is not defined.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./compile.do PAUSED at line 17

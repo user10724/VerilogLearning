@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Verilog_Learn/sim_116_gray_fast/vivado_prj_116/kt7/kt7.sim/sim_1/behav/modelsim
+T_opt
+!s110 1669450854
+VXCHlL<Co=KnLW^1BE959[1
+Z1 04 13 4 work testbench_top fast 0
+Z2 04 4 4 work glbl fast 0
+=1-047c16100131-6381cc66-6b-4ad4
+Z3 o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1669456901
+V6>L?=`EOQBjB3L5d=4IB82
+R1
+R2
+=1-047c16100131-6381e405-1bc-4e28
+R3
+R4
+n@_opt1
+R5
+vglbl
+!s110 1669456896
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJT>_:<WW6a7KP^k3<8E3=1
+Z7 dF:/Verilog_Learn/sim_117_fopen_fwrite/vivado_prj_117/kt7/kt7.sim/sim_1/behav/modelsim
+w1634335545
+8glbl.v
+Fglbl.v
+!i122 8
+L0 6 78
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1669456896.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vtestbench_top
+!s10a 1669456874
+!s110 1669456887
+!i10b 1
+!s100 6<PzJ_5Ac8M3JgWaNSY163
+R6
+IILVX7DiFb5<^_KdMCcXgl3
+R7
+w1669456874
+8../../../../../../testbench/testbench_top.v
+F../../../../../../testbench/testbench_top.v
+!i122 6
+L0 8 99
+R8
+R9
+r1
+!s85 0
+31
+!s108 1669456887.000000
+Z10 !s107 ../../../../../../testbench/testbench_top.v|../../../../../../design/vlg_design.v|
+Z11 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../../../design/vlg_design.v|../../../../../../testbench/testbench_top.v|
+!i113 0
+Z12 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vvlg_design
+!s10a 1669450465
+!s110 1669450750
+!i10b 1
+!s100 hae;ICGRg6YU8jIVd<A>B0
+R6
+IP:=]40;RTL_7JDd6B5TO;2
+R0
+w1669450465
+8../../../../../../design/vlg_design.v
+F../../../../../../design/vlg_design.v
+!i122 0
+L0 7 41
+R8
+R9
+r1
+!s85 0
+31
+!s108 1669450750.000000
+R10
+R11
+!i113 0
+R12
+R4

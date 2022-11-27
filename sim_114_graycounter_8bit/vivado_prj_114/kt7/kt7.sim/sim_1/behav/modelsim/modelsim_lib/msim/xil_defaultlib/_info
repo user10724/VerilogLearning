@@ -1,0 +1,113 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Verilog_Learn/sim_114_graycounter_8bit/vivado_prj_114/kt7/kt7.sim/sim_1/behav/modelsim
+T_opt
+!s110 1669393200
+Ve=P60A9ee[P@J6^YToL@k0
+04 13 4 work testbench_top fast 0
+04 4 4 work glbl fast 0
+=1-047c16100131-6380eb30-28d-1bb4
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vblk_mem_gen_0
+Z2 !s110 1669393196
+!i10b 1
+!s100 ccm5:4^gCWMk??R8>NOOe0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IEBGjMBLl0P<0ZFM8@WWFL2
+R0
+w1669390348
+8../../../../kt7.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+F../../../../kt7.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+!i122 0
+L0 56 156
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1669393196.000000
+Z7 !s107 ../../../../../../testbench/testbench_top.v|../../../../../../design/vlg_design.v|../../../../kt7.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|
+Z8 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../kt7.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../../../design/vlg_design.v|../../../../../../testbench/testbench_top.v|
+!i113 0
+Z9 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vglbl
+R2
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+R3
+IJT>_:<WW6a7KP^k3<8E3=1
+R0
+w1634335545
+8glbl.v
+Fglbl.v
+!i122 1
+L0 6 78
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtestbench_top
+R2
+!i10b 1
+!s100 c=<ndGO4EMM5M[02E?=OJ3
+R3
+IzPkcH[Z9D]2kKQ1e]9gmX2
+R0
+w1669393105
+8../../../../../../testbench/testbench_top.v
+F../../../../../../testbench/testbench_top.v
+!i122 0
+L0 7 86
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vvlg_design
+R2
+!i10b 1
+!s100 _e^SFDEB1K813@lMoH2Dn1
+R3
+IhkbXS;4XMeWMNlTEmc_IH2
+R0
+w1669392640
+8../../../../../../design/vlg_design.v
+F../../../../../../design/vlg_design.v
+!i122 0
+L0 11 39
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

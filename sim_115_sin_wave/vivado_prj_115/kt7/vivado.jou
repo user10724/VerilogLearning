@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Nov 26 14:59:04 2022
+# Process ID: 1336
+# Current directory: F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7144 F:\Verilog_Learn\sim_115_sin_wave\vivado_prj_115\kt7\kt7.xpr
+# Log file: F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/vivado.log
+# Journal file: F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7\vivado.jou
+# Running On: ZHOUXXXX, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 34137 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.xpr
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.Write_Width_A {16} CONFIG.Write_Depth_A {1024} CONFIG.Read_Width_A {16} CONFIG.Write_Width_B {16} CONFIG.Read_Width_B {16} CONFIG.Coe_File {F:/Verilog_Learn/sim_115_sin_wave/sin_rom.coe}] [get_ips blk_mem_gen_0]
+generate_target all [get_files  F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] }
+export_ip_user_files -of_objects [get_files F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet
+reset_run blk_mem_gen_0_synth_1
+launch_runs blk_mem_gen_0_synth_1 -jobs 18
+wait_on_run blk_mem_gen_0_synth_1
+export_simulation -of_objects [get_files F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -directory F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.ip_user_files/sim_scripts -ip_user_files_dir F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.ip_user_files -ipstatic_source_dir F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib} {questa=F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.cache/compile_simlib/questa} {riviera=F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.cache/compile_simlib/riviera} {activehdl=F:/Verilog_Learn/sim_115_sin_wave/vivado_prj_115/kt7/kt7.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -install_path E:/modeltech64_2020.4/win64
+launch_simulation -install_path E:/modeltech64_2020.4/win64

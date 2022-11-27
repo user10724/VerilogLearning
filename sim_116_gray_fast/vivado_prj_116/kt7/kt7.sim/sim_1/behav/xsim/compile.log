@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_116_gray_fast/design/vlg_design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vlg_design
+INFO: [VRFC 10-2458] undeclared symbol i_clk, assumed default net type wire [F:/Verilog_Learn/sim_116_gray_fast/design/vlg_design.v:25]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_116_gray_fast/vivado_prj_116/kt7/kt7.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

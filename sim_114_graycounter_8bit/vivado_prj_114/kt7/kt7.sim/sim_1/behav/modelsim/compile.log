@@ -1,0 +1,24 @@
+# do {testbench_top_compile.do}
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 00:19:56 on Nov 26,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../kt7.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module blk_mem_gen_0
+# -- Compiling module vlg_design
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 00:19:56 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 00:19:56 on Nov 26,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 00:19:56 on Nov 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

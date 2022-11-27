@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_110_pulse_counters16/design/pulse_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pulse_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_110_pulse_counters16/design/vlg_design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vlg_design
+INFO: [VRFC 10-2458] undeclared symbol o_pulse_cntd, assumed default net type wire [F:/Verilog_Learn/sim_110_pulse_counters16/design/vlg_design.v:54]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_110_pulse_counters16/vivado_prj_110/kt7/kt7.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

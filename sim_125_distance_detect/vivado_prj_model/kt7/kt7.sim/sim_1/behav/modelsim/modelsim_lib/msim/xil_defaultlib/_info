@@ -1,0 +1,234 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Verilog_Learn/sim_125_distance_detect/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim
+T_opt
+!s110 1669562260
+VVk25;hgZ=l=KN@1aADL`@1
+04 13 4 work testbench_top fast 0
+04 4 4 work glbl fast 0
+=1-047c16100131-63837f93-1b6-45a8
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_17 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vglbl
+Z2 !s110 1669562253
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJT>_:<WW6a7KP^k3<8E3=1
+R0
+w1634335545
+8glbl.v
+Fglbl.v
+!i122 17
+L0 6 78
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1669562253.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Emult_gen_0
+Z7 w1669558802
+Z8 DPx17 mult_gen_v12_0_17 26 mult_gen_v12_0_17_viv_comp 0 22 n:H_=jPo=Ua=W0gMl>M0P0
+DEx17 mult_gen_v12_0_17 17 mult_gen_v12_0_17 0 22 ;TNVEYR;CAkF8SbH9UhTm0
+Z9 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 15
+R0
+Z12 8../../../../kt7.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd
+Z13 F../../../../kt7.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd
+l0
+L59 1
+VbjJiG59D1zUiEWG=QM0QL1
+!s100 0dFgJzbR48[<8BEP??N:X3
+Z14 OL;C;2020.4;71
+31
+R2
+!i10b 1
+R6
+Z15 !s90 -93|-work|xil_defaultlib|../../../../kt7.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd|
+Z16 !s107 ../../../../kt7.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd|
+!i113 0
+Z17 o-93 -work xil_defaultlib
+Z18 tExplicit 1 CvgOpt 0
+Amult_gen_0_arch
+R8
+R9
+R10
+R11
+DEx4 work 10 mult_gen_0 0 22 bjJiG59D1zUiEWG=QM0QL1
+!i122 15
+l113
+L68 78
+VNYBiN5aJn3?HJ95>8Im3O1
+!s100 ^n9UWjICE^N8kZz[9hWIC3
+R14
+31
+R2
+!i10b 1
+R6
+R15
+R16
+!i113 0
+R17
+R18
+vtestbench_top
+R2
+!i10b 1
+!s100 6GPa39e6G]>KQ?JH<M0[F0
+R3
+I9Bb;^CD^7=Q`4;naU7@B@3
+R0
+w1669562248
+8../../../../../../testbench/testbench_top.v
+F../../../../../../testbench/testbench_top.v
+!i122 16
+L0 8 124
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z19 !s107 ../../../../../../testbench/testbench_top.v|../../../../../../design/vlg_trig.v|../../../../../../design/vlg_en.v|../../../../../../design/vlg_echo.v|../../../../../../design/vlg_design.v|../../../../../../design/vlg_cal.v|
+Z20 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../../../design/vlg_cal.v|../../../../../../design/vlg_design.v|../../../../../../design/vlg_echo.v|../../../../../../design/vlg_en.v|../../../../../../design/vlg_trig.v|../../../../../../testbench/testbench_top.v|
+!i113 0
+Z21 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vvlg_cal
+!s10a 1669559144
+Z22 !s110 1669561347
+!i10b 1
+!s100 =^aobGcD59?z62kOV=8`;0
+R3
+I0VTd=iM]:HoO_=Kg5JDCB3
+R0
+w1669559144
+8../../../../../../design/vlg_cal.v
+F../../../../../../design/vlg_cal.v
+!i122 1
+L0 7 36
+R4
+R5
+r1
+!s85 0
+31
+Z23 !s108 1669561347.000000
+R19
+R20
+!i113 0
+R21
+R1
+vvlg_design
+!s10a 1669562196
+!s110 1669562201
+!i10b 1
+!s100 YdGP<A4KF@=B<QVfQ?ON:2
+R3
+I^CVNhV^SfTYf5GX3AbP?i1
+R0
+w1669562196
+8../../../../../../design/vlg_design.v
+F../../../../../../design/vlg_design.v
+!i122 13
+L0 7 57
+R4
+R5
+r1
+!s85 0
+31
+!s108 1669562201.000000
+R19
+R20
+!i113 0
+R21
+R1
+vvlg_echo
+!s10a 1669561702
+!s110 1669561731
+!i10b 1
+!s100 Z>GRYX]A8cAC3eI?i;4Z;1
+R3
+INCX[2BgfoaZdkJW=^0Ec;1
+R0
+w1669561702
+8../../../../../../design/vlg_echo.v
+F../../../../../../design/vlg_echo.v
+!i122 7
+L0 7 60
+R4
+R5
+r1
+!s85 0
+31
+!s108 1669561731.000000
+R19
+R20
+!i113 0
+R21
+R1
+vvlg_en
+!s10a 1669553770
+R22
+!i10b 1
+!s100 kZ?1H:L`HjEW7N]il32Aa2
+R3
+IX4V=SHY69clzfEB6Ea^lA3
+R0
+w1669553770
+8../../../../../../design/vlg_en.v
+F../../../../../../design/vlg_en.v
+!i122 1
+L0 7 29
+R4
+R5
+r1
+!s85 0
+31
+R23
+R19
+R20
+!i113 0
+R21
+R1
+vvlg_trig
+!s10a 1669554729
+R22
+!i10b 1
+!s100 0@4_iOW22S4bR_j04nU::0
+R3
+I2MLXS<e<fUdcDcl3a14?80
+R0
+w1669554729
+8../../../../../../design/vlg_trig.v
+F../../../../../../design/vlg_trig.v
+!i122 1
+L0 7 33
+R4
+R5
+r1
+!s85 0
+31
+R23
+R19
+R20
+!i113 0
+R21
+R1
