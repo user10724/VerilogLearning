@@ -1,0 +1,91 @@
+
+*** Running vivado
+    with args -log vlg_design.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source vlg_design.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source vlg_design.tcl -notrace
+Command: synth_design -top vlg_design -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1340
+
+*** Running vivado
+    with args -log vlg_design.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source vlg_design.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source vlg_design.tcl -notrace
+Command: synth_design -top vlg_design -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6480
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1373.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'vlg_design' [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:7]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [E:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:55219]
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (1#1) [E:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:55219]
+WARNING: [Synth 8-151] case item 8'b00010000 is unreachable [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:70]
+WARNING: [Synth 8-151] case item 8'b00100000 is unreachable [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:75]
+WARNING: [Synth 8-151] case item 8'b01000000 is unreachable [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:80]
+WARNING: [Synth 8-151] case item 8'b10000000 is unreachable [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:85]
+WARNING: [Synth 8-567] referenced signal 'cstate' should be on the sensitivity list [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:50]
+WARNING: [Synth 8-567] referenced signal 'money_sum' should be on the sensitivity list [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:50]
+WARNING: [Synth 8-151] case item 8'b10000000 is unreachable [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:140]
+WARNING: [Synth 8-6014] Unused sequential element cstate_reg was removed.  [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:44]
+WARNING: [Synth 8-6014] Unused sequential element money_sum_reg was removed.  [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:137]
+INFO: [Synth 8-6155] done synthesizing module 'vlg_design' (2#1) [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:7]
+WARNING: [Synth 8-7129] Port i_rst_n in module vlg_design is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_1yuan in module vlg_design is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_2yuan in module vlg_design is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i_5yuan in module vlg_design is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1373.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1373.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1373.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1373.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------

@@ -1,0 +1,90 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim
+T_opt
+!s110 1669630102
+VFZfT1Tz`TYTnLX`FX3iIf3
+04 13 4 work testbench_top fast 0
+04 4 4 work glbl fast 0
+=1-047c16100131-63848896-1d0-28a8
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vglbl
+Z2 !s110 1669630097
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJT>_:<WW6a7KP^k3<8E3=1
+R0
+w1634335545
+8glbl.v
+Fglbl.v
+!i122 66
+L0 6 78
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1669630097.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtestbench_top
+R2
+!i10b 1
+!s100 E986;l@T;M0U1TVKOefH80
+R3
+IgCWWA4cMzSFdK`W69e?3b0
+R0
+w1669630083
+8../../../../../../testbench/testbench_top.v
+F../../../../../../testbench/testbench_top.v
+!i122 65
+L0 8 97
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z7 !s107 ../../../../../../testbench/testbench_top.v|../../../../../../design/vlg_design.v|
+Z8 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../../../design/vlg_design.v|../../../../../../testbench/testbench_top.v|
+!i113 0
+Z9 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vvlg_design
+R2
+!i10b 1
+!s100 zN=k5JYbE5bHi?>4f3Q7Y3
+R3
+IzWX5[OoW^^l^I^@<iW_gd2
+R0
+w1669630058
+8../../../../../../design/vlg_design.v
+F../../../../../../design/vlg_design.v
+!i122 65
+L0 7 168
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

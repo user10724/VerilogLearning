@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vlg_design
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_129_autosellor/testbench/testbench_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_top
+ERROR: [VRFC 10-2989] 'i_1yaun' is not declared [F:/Verilog_Learn/sim_129_autosellor/testbench/testbench_top.v:83]
+ERROR: [VRFC 10-2865] module 'testbench_top' ignored due to previous errors [F:/Verilog_Learn/sim_129_autosellor/testbench/testbench_top.v:8]

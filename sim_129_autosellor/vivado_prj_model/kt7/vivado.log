@@ -1,0 +1,2383 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Nov 28 16:10:01 2022
+# Process ID: 19284
+# Current directory: F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15656 F:\Verilog_Learn\sim_129_autosellor\vivado_prj_model\kt7\kt7.xpr
+# Log file: F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/vivado.log
+# Journal file: F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7\vivado.jou
+# Running On: ZHOUXXXX, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 34137 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'F:/Verilog_Learn/sim_104_BUFGCE/vivado_prj/kt7' since last save.
+INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.gen/sources_1', nor could it be found using path 'F:/Verilog_Learn/sim_104_BUFGCE/vivado_prj/kt7/kt7.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2021.2/data/ip'.
+add_files -norecurse F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse F:/Verilog_Learn/sim_129_autosellor/testbench/testbench_top.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vlg_design
+INFO: [VRFC 10-2458] undeclared symbol i_clk, assumed default net type wire [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:23]
+ERROR: [VRFC 10-2989] 'i_1yaun' is not declared [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:103]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register o_done is not permitted, left-hand side should be reg/integer/time/genvar [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:113]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register o_done is not permitted, left-hand side should be reg/integer/time/genvar [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:114]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register o_done is not permitted, left-hand side should be reg/integer/time/genvar [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:115]
+ERROR: [VRFC 10-2865] module 'vlg_design' ignored due to previous errors [F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v:7]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property target_simulator ModelSim [current_project]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:12:32 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# ** Error: ../../../../../../design/vlg_design.v(103): (vlog-2730) Undefined variable: 'i_1yaun'.
+# ** Error: ../../../../../../testbench/testbench_top.v(83): (vlog-2730) Undefined variable: 'i_1yaun'.
+# End time: 16:12:32 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./testbench_top_compile.do line 19
+# E:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -incr -mfcu -work xil_defaultlib  \
+# "../../../../../../design/vlg_design.v" \
+# "../../../../../../testbench/testbench_top.v" \
+# "
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:14:13 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# ** Error: ../../../../../../design/vlg_design.v(103): (vlog-2730) Undefined variable: 'i_1yaun'.
+# ** Error: ../../../../../../testbench/testbench_top.v(83): (vlog-2730) Undefined variable: 'i_1yaun'.
+# End time: 16:14:13 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./testbench_top_compile.do line 19
+# E:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -incr -mfcu -work xil_defaultlib  \
+# "../../../../../../design/vlg_design.v" \
+# "../../../../../../testbench/testbench_top.v" \
+# "
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:16:23 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# ** Error: ../../../../../../testbench/testbench_top.v(83): (vlog-2730) Undefined variable: 'i_1yaun'.
+# End time: 16:16:23 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./testbench_top_compile.do line 19
+# E:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -incr -mfcu -work xil_defaultlib  \
+# "../../../../../../design/vlg_design.v" \
+# "../../../../../../testbench/testbench_top.v" \
+# "
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:20:23 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# ** Error: ../../../../../../testbench/testbench_top.v(83): (vlog-2730) Undefined variable: 'i_1yaun'.
+# End time: 16:20:23 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./testbench_top_compile.do line 19
+# E:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -incr -mfcu -work xil_defaultlib  \
+# "../../../../../../design/vlg_design.v" \
+# "../../../../../../testbench/testbench_top.v" \
+# "
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property target_simulator XSim [current_project]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_129_autosellor/design/vlg_design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vlg_design
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Verilog_Learn/sim_129_autosellor/testbench/testbench_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_top
+ERROR: [VRFC 10-2989] 'i_1yaun' is not declared [F:/Verilog_Learn/sim_129_autosellor/testbench/testbench_top.v:83]
+ERROR: [VRFC 10-2865] module 'testbench_top' ignored due to previous errors [F:/Verilog_Learn/sim_129_autosellor/testbench/testbench_top.v:8]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property target_simulator ModelSim [current_project]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:21:37 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Skipping module vlg_design
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 16:21:37 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:21:37 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 16:21:37 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=18284)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:24:10 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Skipping module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 16:24:10 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:24:10 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 16:24:10 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=17000)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:53 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Skipping module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 16:32:54 on Nov 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:54 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 16:32:54 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=15996)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:49:50 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 16:49:50 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:49:50 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 16:49:50 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=6628)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:06 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# ** Error: ../../../../../../design/vlg_design.v(51): (vlog-2730) Undefined variable: 'i_2yaun'.
+# ../../../../../../design/vlg_design.v(118): Verilog Compiler exiting
+# End time: 16:55:06 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./testbench_top_compile.do line 19
+# E:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -incr -mfcu -work xil_defaultlib  \
+# "../../../../../../design/vlg_design.v" \
+# "../../../../../../testbench/testbench_top.v" \
+# "
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:54 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# ** Error: ../../../../../../design/vlg_design.v(51): (vlog-2730) Undefined variable: 'i_2yaun'.
+# -- Skipping module testbench_top
+# End time: 16:55:54 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./testbench_top_compile.do line 19
+# E:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -incr -mfcu -work xil_defaultlib  \
+# "../../../../../../design/vlg_design.v" \
+# "../../../../../../testbench/testbench_top.v" \
+# "
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:57:14 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# ** Error: ../../../../../../design/vlg_design.v(51): (vlog-2730) Undefined variable: 'i_2yaun'.
+# -- Skipping module testbench_top
+# End time: 16:57:14 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./testbench_top_compile.do line 19
+# E:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -incr -mfcu -work xil_defaultlib  \
+# "../../../../../../design/vlg_design.v" \
+# "../../../../../../testbench/testbench_top.v" \
+# "
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property target_simulator XSim [current_project]
+set_property target_simulator ModelSim [current_project]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:58:27 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 16:58:27 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:58:27 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 16:58:27 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=16680)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:08:54 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:08:54 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:08:54 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:08:54 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=12420)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:11:15 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Skipping module vlg_design
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:11:15 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:11:15 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:11:15 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=17412)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:12:47 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:12:47 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:12:47 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:12:48 on Nov 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=11600)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:13:35 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Skipping module vlg_design
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:13:35 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:13:35 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:13:35 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=16876)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:14:43 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:14:43 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:14:43 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:14:43 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=17016)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:17:28 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# ** Error: (vlog-13069) ../../../../../../design/vlg_design.v(29): near "=": syntax error, unexpected '='.
+# ** Error: ../../../../../../design/vlg_design.v(29): (vlog-13205) Syntax error found in the scope following 'IN_1'. Is there a missing '::'?
+# ** Error: (vlog-13069) ../../../../../../design/vlg_design.v(29): near "8": syntax error, unexpected INTEGER NUMBER, expecting class.
+# End time: 17:17:28 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: E:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./testbench_top_compile.do line 19
+# E:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -incr -mfcu -work xil_defaultlib  \
+# "../../../../../../design/vlg_design.v" \
+# "../../../../../../testbench/testbench_top.v" \
+# "
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1338.180 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:04 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:18:04 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:04 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:18:04 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=13640)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:21:19 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:21:19 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:21:19 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:21:19 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=6600)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:21:52 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:21:52 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:21:52 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:21:52 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=16444)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:25:49 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:25:49 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:25:49 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:25:49 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=3004)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:28:30 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:28:30 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:28:30 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:28:30 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=17184)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:28 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:30:28 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:28 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:30:28 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=13196)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:26 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:32:26 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:26 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:32:26 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=9888)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:36:18 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Skipping module vlg_design
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:36:18 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:36:18 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:36:18 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=13420)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:38:29 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:38:29 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:38:29 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:38:29 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=9184)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:39:00 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:39:00 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:39:00 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:39:00 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=7648)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:39:49 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:39:50 on Nov 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:39:50 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:39:50 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=15648)
+launch_runs synth_1 -jobs 18
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon Nov 28 17:41:59 2022] Launched synth_1...
+Run output will be captured here: F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:42:03 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:42:03 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:42:03 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:42:03 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=16520)
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.runs/synth_1
+
+launch_runs synth_1 -jobs 18
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon Nov 28 17:44:07 2022] Launched synth_1...
+Run output will be captured here: F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:44:20 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Skipping module vlg_design
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:44:20 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:44:20 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:44:20 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=3488)
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.runs/synth_1
+
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:45:32 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:45:32 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:45:32 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:45:32 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=17016)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:48:06 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:48:06 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:48:06 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:48:06 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=18128)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:50:22 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:50:22 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:50:22 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:50:22 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=17260)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:52:09 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:52:09 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:52:09 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:52:09 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=17760)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:55:12 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:55:12 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:55:12 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:55:12 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=16196)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:57:21 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 17:57:21 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:57:21 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 17:57:21 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=12904)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:00:25 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 18:00:25 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:00:25 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:00:25 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=10780)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:01:34 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Skipping module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 18:01:34 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:01:34 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:01:34 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=14188)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:02:20 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 18:02:20 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:02:20 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:02:20 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=10996)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:04:24 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Skipping module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 18:04:24 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:04:24 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:04:24 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=17428)
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_top'
+WARNING: [Vivado 12-12987] Compiled library path is not a directory: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-49] Using simulator executables from 'E:\modeltech64_2020.4\win64'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/modeltech64_2020.4/vivado2021_lib_modelsim20_lib/modelsim.ini' copied to run dir:'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_top' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Reading pref.tcl
+
+# 2020.4
+
+# do {testbench_top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# Errors: 0, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:08:17 on Nov 28,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../design/vlg_design.v ../../../../../../testbench/testbench_top.v 
+# -- Compiling module vlg_design
+# -- Compiling module testbench_top
+# 
+# Top level modules:
+# 	testbench_top
+# End time: 18:08:17 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 18:08:17 on Nov 28,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:08:17 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+INFO: [USF-ModelSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'F:/Verilog_Learn/sim_129_autosellor/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim'
+Program launched (PID=5512)
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 28 18:10:37 2022...

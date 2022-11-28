@@ -10,7 +10,7 @@ module testbench_top();
 ////////////////////////////////////////////////////////////
 //参数定义
 
-`define CLK_PERIORD		5.0		//时钟周期设置为5ns（200MHz）	
+`define CLK_PERIORD		5		//时钟周期设置为5ns（200MHz）	
 
 ////////////////////////////////////////////////////////////
 //接口申明
@@ -44,9 +44,9 @@ initial begin
 end
 	
 	//时钟产生
-always #(`CLK_PERIORD/2) i_clk_p <= ~i_clk_p;	
+always #(`CLK_PERIORD/2.0) i_clk_p <= ~i_clk_p;	
 
-always #(`CLK_PERIORD/2) i_clk_n <= ~i_clk_n;
+always #(`CLK_PERIORD/2.0) i_clk_n <= ~i_clk_n;
 ////////////////////////////////////////////////////////////
 //测试激励产生
 
