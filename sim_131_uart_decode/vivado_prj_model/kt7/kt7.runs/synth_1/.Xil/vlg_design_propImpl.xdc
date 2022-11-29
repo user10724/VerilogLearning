@@ -1,0 +1,11 @@
+set_property SRC_FILE_INFO {cfile:F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.srcs/constrs_1/new/kt7_pins.xdc rfile:../../../kt7.srcs/constrs_1/new/kt7_pins.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN AD11 IOSTANDARD LVDS} [get_ports i_clk_n]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN AD12 IOSTANDARD LVDS} [get_ports i_clk_p]
+set_property src_info {type:XDC file:1 line:17 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN R19 IOSTANDARD LVCMOS33} [get_ports i_rst_n]
+set_property src_info {type:XDC file:1 line:20 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T28   IOSTANDARD LVCMOS33 } [get_ports { o_pwm }]; #IO_L11N_T1_SRCC_14 Sch=led[0]
+set_property src_info {type:XDC file:1 line:45 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN Y20   IOSTANDARD LVCMOS33 } [get_ports { i_uart_rx }]; #IO_0_12 Sch=uart_tx_in

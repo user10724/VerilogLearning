@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Nov 29 17:42:43 2022
+# Process ID: 13324
+# Current directory: F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.runs/impl_1
+# Command line: vivado.exe -log vlg_design.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source vlg_design.tcl -notrace
+# Log file: F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.runs/impl_1/vlg_design.vdi
+# Journal file: F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.runs/impl_1\vivado.jou
+# Running On: ZHOUXXXX, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 34137 MB
+#-----------------------------------------------------------
+source vlg_design.tcl -notrace

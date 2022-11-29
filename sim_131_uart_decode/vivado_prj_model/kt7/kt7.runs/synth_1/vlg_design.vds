@@ -1,0 +1,280 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Nov 29 17:42:13 2022
+# Process ID: 14596
+# Current directory: F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.runs/synth_1
+# Command line: vivado.exe -log vlg_design.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vlg_design.tcl
+# Log file: F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.runs/synth_1/vlg_design.vds
+# Journal file: F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.runs/synth_1\vivado.jou
+# Running On: ZHOUXXXX, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 34137 MB
+#-----------------------------------------------------------
+source vlg_design.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental F:/Verilog_Learn/sim_104_BUFGCE/vivado_prj/kt7/kt7.srcs/utils_1/imports/synth_1/vlg_design.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from F:/Verilog_Learn/sim_104_BUFGCE/vivado_prj/kt7/kt7.srcs/utils_1/imports/synth_1/vlg_design.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top vlg_design -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3400
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1375.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'vlg_design' [F:/Verilog_Learn/sim_131_uart_decode/design/vlg_design.v:7]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [E:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:55219]
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (1#1) [E:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:55219]
+INFO: [Synth 8-6157] synthesizing module 'm_bps' [F:/Verilog_Learn/sim_131_uart_decode/design/m_bps.v:7]
+	Parameter UART_BPS_RATE bound to: 115200 - type: integer 
+	Parameter CLK_PERIORD bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'm_bps' (2#1) [F:/Verilog_Learn/sim_131_uart_decode/design/m_bps.v:7]
+INFO: [Synth 8-6157] synthesizing module 'm_s2p' [F:/Verilog_Learn/sim_131_uart_decode/design/m_s2p.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'm_s2p' (3#1) [F:/Verilog_Learn/sim_131_uart_decode/design/m_s2p.v:7]
+INFO: [Synth 8-6157] synthesizing module 'm_decoder' [F:/Verilog_Learn/sim_131_uart_decode/design/m_decoder.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'm_decoder' (4#1) [F:/Verilog_Learn/sim_131_uart_decode/design/m_decoder.v:7]
+INFO: [Synth 8-6157] synthesizing module 'm_led' [F:/Verilog_Learn/sim_131_uart_decode/design/m_led.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'm_led' (5#1) [F:/Verilog_Learn/sim_131_uart_decode/design/m_led.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'vlg_design' (6#1) [F:/Verilog_Learn/sim_131_uart_decode/design/vlg_design.v:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1375.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1375.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1375.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1375.074 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.srcs/constrs_1/new/kt7_pins.xdc]
+Finished Parsing XDC File [F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.srcs/constrs_1/new/kt7_pins.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.srcs/constrs_1/new/kt7_pins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vlg_design_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vlg_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1423.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1423.168 ; gain = 0.000
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'r_cstate_reg' in module 'm_decoder'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_r_nstate_reg' [F:/Verilog_Learn/sim_131_uart_decode/design/m_decoder.v:58]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_r_nstate_reg' [F:/Verilog_Learn/sim_131_uart_decode/design/m_decoder.v:58]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                       0000000001 |                             0000
+                    SOF1 |                       0000000010 |                             0001
+                    SOF2 |                       0000000100 |                             0010
+                    SOF3 |                       0000001000 |                             0011
+                    RXDB |                       0000010000 |                             0100
+                    EOF1 |                       0000100000 |                             0101
+                    EOF2 |                       0001000000 |                             0110
+                    EOF3 |                       0010000000 |                             0111
+                    EOF4 |                       0100000000 |                             1000
+                    DONE |                       1000000000 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_cstate_reg' using encoding 'one-hot' in module 'm_decoder'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_r_nstate_reg' [F:/Verilog_Learn/sim_131_uart_decode/design/m_decoder.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	  12 Input   32 Bit        Muxes := 2     
+	  12 Input   16 Bit        Muxes := 1     
+	  10 Input   10 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 17    
+	  10 Input    8 Bit        Muxes := 1     
+	  10 Input    4 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 9     
+	  10 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    42|
+|3     |LUT1   |    54|
+|4     |LUT2   |     9|
+|5     |LUT3   |     6|
+|6     |LUT4   |    95|
+|7     |LUT5   |    25|
+|8     |LUT6   |    37|
+|9     |FDRE   |   198|
+|10    |FDSE   |     1|
+|11    |LD     |    10|
+|12    |IBUF   |     2|
+|13    |IBUFDS |     1|
+|14    |OBUF   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1423.168 ; gain = 48.094
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1423.168 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1423.168 ; gain = 48.094
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1423.168 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1423.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  LD => LDCE: 10 instances
+
+Synth Design complete, checksum: 4a2aeee7
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1423.168 ; gain = 48.094
+INFO: [Common 17-1381] The checkpoint 'F:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.runs/synth_1/vlg_design.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file vlg_design_utilization_synth.rpt -pb vlg_design_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 29 17:42:37 2022...

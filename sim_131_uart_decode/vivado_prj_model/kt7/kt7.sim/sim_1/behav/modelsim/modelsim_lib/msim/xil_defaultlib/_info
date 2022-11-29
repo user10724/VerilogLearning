@@ -1,0 +1,187 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Verilog_Learn/sim_131_uart_decode/vivado_prj_model/kt7/kt7.sim/sim_1/behav/modelsim
+T_opt
+!s110 1669714626
+V=2SYmjcETc52g[XD3D8d70
+04 13 4 work testbench_top fast 0
+04 4 4 work glbl fast 0
+=1-047c16100131-6385d2c2-1cf-23b4
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vglbl
+Z2 !s110 1669714621
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJT>_:<WW6a7KP^k3<8E3=1
+R0
+w1634335545
+8glbl.v
+Fglbl.v
+!i122 5
+L0 6 78
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1669714621.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vm_bps
+!s10a 1669639873
+Z7 !s110 1669711359
+!i10b 1
+!s100 :W>gG0Kk3Ybfo?i0<2ah?0
+R3
+ICzVmifnRn?O=Q`eVYbMzG2
+R0
+w1669639873
+8../../../../../../design/m_bps.v
+F../../../../../../design/m_bps.v
+!i122 0
+L0 7 38
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1669711359.000000
+Z9 !s107 ../../../../../../testbench/testbench_top.v|../../../../../../design/vlg_design.v|../../../../../../design/m_s2p.v|../../../../../../design/m_led.v|../../../../../../design/m_decoder.v|../../../../../../design/m_bps.v|
+Z10 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../../../design/m_bps.v|../../../../../../design/m_decoder.v|../../../../../../design/m_led.v|../../../../../../design/m_s2p.v|../../../../../../design/vlg_design.v|../../../../../../testbench/testbench_top.v|
+!i113 0
+Z11 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vm_decoder
+!s10a 1669709636
+R7
+!i10b 1
+!s100 X<SB^lCT3D`;KH^jh7@zS2
+R3
+IQUfkFjU7z8FFN617Kjni81
+R0
+w1669709636
+8../../../../../../design/m_decoder.v
+F../../../../../../design/m_decoder.v
+!i122 0
+L0 7 169
+R4
+R5
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vm_led
+!s10a 1669712586
+!s110 1669714474
+!i10b 1
+!s100 fjKiBOmiY^?6:aOonz[La2
+R3
+InQVTA>>>kEb`BAnHYCFeY1
+R0
+w1669712586
+8../../../../../../design/m_led.v
+F../../../../../../design/m_led.v
+!i122 2
+L0 7 94
+R4
+R5
+r1
+!s85 0
+31
+!s108 1669714474.000000
+R9
+R10
+!i113 0
+R11
+R1
+vm_s2p
+!s10a 1669637613
+R7
+!i10b 1
+!s100 @k8P8G]Ag^9@k`aD6A`273
+R3
+IgO6W5U5RJKIX<^1N8]::m2
+R0
+w1669637613
+8../../../../../../design/m_s2p.v
+F../../../../../../design/m_s2p.v
+!i122 0
+L0 7 84
+R4
+R5
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtestbench_top
+!s10a 1669711169
+R7
+!i10b 1
+!s100 WLYJQD;@QYnzBjLDR;[_k3
+R3
+IdM7R@I7kQgH_gz7N0jc1G2
+R0
+w1669711169
+8../../../../../../testbench/testbench_top.v
+F../../../../../../testbench/testbench_top.v
+!i122 0
+L0 11 174
+R4
+R5
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vvlg_design
+R2
+!i10b 1
+!s100 0=_mQHj0LGYlJbbeH?<NL0
+R3
+I58J43?XSWadJARa@2^ZhC0
+R0
+w1669714607
+8../../../../../../design/vlg_design.v
+F../../../../../../design/vlg_design.v
+!i122 4
+L0 7 91
+R4
+R5
+r1
+!s85 0
+31
+R6
+R9
+R10
+!i113 0
+R11
+R1
